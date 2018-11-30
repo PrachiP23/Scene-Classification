@@ -77,3 +77,5 @@ Built a recognition system that will guess the image by comparing histogram of t
 ### Evaluation: Confusion Matrix
   A confusion matrix is a table that is often used to describe the performance of a classification model  on a set of test data for which the true values are known. The following confusion matrix is generated:  
 ![](readme_images/confusionMatrix.JPG)  
+
+Accuracy is 45%.
