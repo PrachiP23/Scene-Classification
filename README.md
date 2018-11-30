@@ -43,7 +43,8 @@ Filter: [-1 0 1]'
 
 ### Filter response
 Extracted filter responses by applying filters in the filter bank on each image. After application of 20 filters on the sample image(fig a), an image collage(fig b) is generated.  
-![](readme_images/filterResponse.jpg)
+![](readme_images/filterResponse.JPG)
+
 While applying the filters, the imfilter function is used for convolving the filters in filter bank with image. The filtering option mentioned in the function are:  
 ‘conv’: performs multidimensional filtering using convolution.  
 ‘same’: to keep the output size as the input size  
