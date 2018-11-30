@@ -13,6 +13,12 @@ Following instructions will get you a copy of the project up and running on your
 git clone https://github.com/PrachiP23/Scene-Classification.git
 ```
 
+2. **Word Representaion**
+```bash
+batchToVisualWords(n) where n- specify number of cores for parallel processing
+```
+
+
 3. **Evaluation**
 ```bash
 run evaluateRecognitionSystem.m
