@@ -26,7 +26,7 @@ guessImage(absolutePathToimage)
 ## Description:
 
 ### Filter Bank
-![](readme_images/filterbank.jpg)
+![](readme_images/filterbank.JPG)
 
 1. **Gaussian Filter:**
 Gaussian filter a is low-pass filter. It suppresses high-frequency detail(noise), while preserving the low-frequency parts of the image. It basically blurs the image.  
@@ -58,10 +58,10 @@ Generated a visual words dictionary by clustering response of random pixels from
 The wordmap images define the shapes of the object. Generated a wordmap for each image where each pixel is assigned to its closest visual word. The similar colors/shapes in the image are classified into similar categories or into bag of words.
 For e.g., for the computer room category, we can see that the computer shape is defined in the wordmap and we can identify from its wordmap that it belongs to computer room.  
 Below are a few images showing the original image and the wordMap image:  
-1. ![](readme_images/wordMap1.jpg)  
-2. ![](readme_images/wordMap2.jpg)  
-3. ![](readme_images/wordMap3.jpg)  
-4. ![](readme_images/wordMap4.jpg)  
+1. ![](readme_images/wordMap1.JPG)  
+2. ![](readme_images/wordMap2.JPG)  
+3. ![](readme_images/wordMap3.JPG)  
+4. ![](readme_images/wordMap4.JPG)  
 
 ### Building a Recognition system
 1. **Feature Extraction**
@@ -69,11 +69,11 @@ Extract the histogram of visual words within the given image (i.e., the bag of v
 
 2. **Multi-resolution: Spatial Pyramid Matching**
 Bag of words is simple and efficient, but it discards information about the spatial structure of the image and this information is often valuable. One way to alleviate this issue is to use spatial pyramid matching. The general idea is to divide the image into a small number of cells, and concatenate the histogram of each of these cells to the histogram of the original image, with a suitable weight.  
-![](readme_images/SPM.jpg)  
+![](readme_images/SPM.JPG)  
 
 Built a recognition system that will guess the image by comparing histogram of the image with the training set of histograms.
 
 
 ### Evaluation: Confusion Matrix
   A confusion matrix is a table that is often used to describe the performance of a classification model  on a set of test data for which the true values are known. The following confusion matrix is generated:  
-![](readme_images/confusionMatrix.jpg)  
+![](readme_images/confusionMatrix.JPG)  
